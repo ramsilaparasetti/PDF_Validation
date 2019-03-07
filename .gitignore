@@ -1,0 +1,8 @@
+/PDFUnit/*
+/Sample/*
+/api.rest/*
+/Mob/*
+/RemoteSystemsTempFiles/*
+/.metadata/*
+/.recommenders/*
+.DS_Store
