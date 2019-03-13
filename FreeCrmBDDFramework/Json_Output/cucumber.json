@@ -1,0 +1,458 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "payment due now",
+        "description": "",
+        "id": "payment-calculator;payment-due-now;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 131486931,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer has a minimum payment \"£10\" to make",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£10",
+                  "offset": 32
+                }
+              ],
+              "location": "paymentCalculator.customer_has_minimum_payment(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108907,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer has arrears \"£40\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£40",
+                  "offset": 22
+                }
+              ],
+              "location": "paymentCalculator.customer_has_arrears(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1943605,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "make the payment \"30\" now",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 18
+                }
+              ],
+              "location": "paymentCalculator.make_the_payment_now(BigDecimal)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "payment due now",
+        "description": "",
+        "id": "payment-calculator;payment-due-now;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 186573,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer has a minimum payment \"£50\" to make",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£50",
+                  "offset": 32
+                }
+              ],
+              "location": "paymentCalculator.customer_has_minimum_payment(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122665,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer has arrears \"£50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£50",
+                  "offset": 22
+                }
+              ],
+              "location": "paymentCalculator.customer_has_arrears(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 269333,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "make the payment \"50\" now",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 18
+                }
+              ],
+              "location": "paymentCalculator.make_the_payment_now(BigDecimal)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "payment due now",
+        "description": "",
+        "id": "payment-calculator;payment-due-now;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 154832,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer has a minimum payment \"£150\" to make",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£150",
+                  "offset": 32
+                }
+              ],
+              "location": "paymentCalculator.customer_has_minimum_payment(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79553,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer has arrears \"£340\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£340",
+                  "offset": 22
+                }
+              ],
+              "location": "paymentCalculator.customer_has_arrears(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111686,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "make the payment \"190\" now",
+            "match": {
+              "arguments": [
+                {
+                  "val": "190",
+                  "offset": 18
+                }
+              ],
+              "location": "paymentCalculator.make_the_payment_now(BigDecimal)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "payment due now",
+        "description": "",
+        "id": "payment-calculator;payment-due-now;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 168820,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer has a minimum payment \"£160\" to make",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£160",
+                  "offset": 32
+                }
+              ],
+              "location": "paymentCalculator.customer_has_minimum_payment(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90031,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer has arrears \"£25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£25",
+                  "offset": 22
+                }
+              ],
+              "location": "paymentCalculator.customer_has_arrears(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133819,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "make the payment \"135\" now",
+            "match": {
+              "arguments": [
+                {
+                  "val": "135",
+                  "offset": 18
+                }
+              ],
+              "location": "paymentCalculator.make_the_payment_now(BigDecimal)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "payment due now",
+        "description": "",
+        "id": "payment-calculator;payment-due-now;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 192558,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer has a minimum payment \"£170\" to make",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£170",
+                  "offset": 32
+                }
+              ],
+              "location": "paymentCalculator.customer_has_minimum_payment(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144526,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer has arrears \"£10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£10",
+                  "offset": 22
+                }
+              ],
+              "location": "paymentCalculator.customer_has_arrears(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171857,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "make the payment \"160\" now",
+            "match": {
+              "arguments": [
+                {
+                  "val": "160",
+                  "offset": 18
+                }
+              ],
+              "location": "paymentCalculator.make_the_payment_now(BigDecimal)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "payment due later",
+        "description": "",
+        "id": "payment-calculator;payment-due-later",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171630,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "customer has a minimum payment \"£50\" to make",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£50",
+                  "offset": 32
+                }
+              ],
+              "location": "paymentCalculator.customer_has_minimum_payment(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97751,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "customer has arrears \"£100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£100",
+                  "offset": 22
+                }
+              ],
+              "location": "paymentCalculator.customer_has_arrears(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2509667,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "make the payment later",
+            "match": {
+              "location": "paymentCalculator.make_the_payment_later(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "balance",
+                  "expResult"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "100",
+                  "100"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "500",
+                  "500"
+                ],
+                "line": 24
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "payment calculator",
+    "description": "",
+    "id": "payment-calculator",
+    "keyword": "Feature",
+    "uri": "/Users/ramsilaparasetti/Downloads/CucumberSeleniumFramework-master/src/main/java/Features/paymentCalculator.feature"
+  }
+]

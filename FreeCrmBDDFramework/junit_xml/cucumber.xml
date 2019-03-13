@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.138145">
+<testcase classname="payment calculator" name="payment due now" time="0.133539">
+<system-out><![CDATA[Given customer has a minimum payment "£10" to make..........................passed
+When customer has arrears "£40".............................................passed
+Then make the payment "30" now..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="payment calculator" name="payment due now 2" time="0.000579">
+<system-out><![CDATA[Given customer has a minimum payment "£50" to make..........................passed
+When customer has arrears "£50".............................................passed
+Then make the payment "50" now..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="payment calculator" name="payment due now 3" time="0.000346">
+<system-out><![CDATA[Given customer has a minimum payment "£150" to make.........................passed
+When customer has arrears "£340"............................................passed
+Then make the payment "190" now.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="payment calculator" name="payment due now 4" time="0.000393">
+<system-out><![CDATA[Given customer has a minimum payment "£160" to make.........................passed
+When customer has arrears "£25".............................................passed
+Then make the payment "135" now.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="payment calculator" name="payment due now 5" time="0.000509">
+<system-out><![CDATA[Given customer has a minimum payment "£170" to make.........................passed
+When customer has arrears "£10".............................................passed
+Then make the payment "160" now.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="payment calculator" name="payment due later" time="0.002779">
+<system-out><![CDATA[Given customer has a minimum payment "£50" to make..........................passed
+When customer has arrears "£100"............................................passed
+Then make the payment later.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
